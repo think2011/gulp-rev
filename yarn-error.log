@@ -1,0 +1,116 @@
+Arguments: 
+  /Users/think2011/.nvm/versions/node/v7.3.0/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /Users/think2011/Documents/apache-maven-3.2.3/bin:/Users/think2011/.nvm/versions/node/v7.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/think2011/.nvm/versions/node/v7.3.0/bin:node_modules/.bin
+
+Yarn version: 
+  0.18.1
+
+Node version: 
+  7.3.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "gulp-rev",
+    "version": "0.0.1",
+    "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-d41d8cd98f.css",
+    "license": "MIT",
+    "repository": "sindresorhus/gulp-rev",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "maintainers": [
+      {
+        "name": "Justin Hileman",
+        "email": "justin@justinhileman.info",
+        "url": "justinhileman.info"
+      },
+      {
+        "name": "Ben Bieler",
+        "email": "benjaminbieler2014@gmail.com",
+        "url": "https://twitter.com/BenBieler"
+      },
+      {
+        "name": "Tim Costa",
+        "url": "https://github.com/tjsail33"
+      },
+      {
+        "name": "Raja Sekar",
+        "email": "rajasekar89be@gmail.com",
+        "url": "https://github.com/rajzshkr"
+      },
+      {
+        "name": "Ajay Balachandran",
+        "url": "http://www.ajaybalachandran.com/"
+      }
+    ],
+    "engines": {
+      "node": ">=4"
+    },
+    "scripts": {
+      "test": "xo && mocha"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "gulpplugin",
+      "rev",
+      "revving",
+      "revision",
+      "hash",
+      "optimize",
+      "version",
+      "versioning",
+      "cache",
+      "expire",
+      "static",
+      "asset",
+      "assets"
+    ],
+    "dependencies": {
+      "gulp-util": "^3.0.0",
+      "modify-filename": "^1.1.0",
+      "rev-hash": "^1.0.0",
+      "rev-path": "^1.0.0",
+      "sort-keys": "^1.0.0",
+      "through2": "^2.0.0",
+      "vinyl-file": "^2.0.0"
+    },
+    "devDependencies": {
+      "mocha": "*",
+      "xo": "*"
+    },
+    "xo": {
+      "envs": [
+        "node",
+        "mocha"
+      ],
+      "esnext": true
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/gulp-rev: you do not have permission to publish "gulp-rev". Are you logged in as the correct user?
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.18.1/libexec/lib/node_modules/yarn/lib/util/request-manager.js:309:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/0.18.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/0.18.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:1081:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at Gunzip.<anonymous> (/usr/local/Cellar/yarn/0.18.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:1001:12)
+      at Gunzip.g (events.js:292:16)
+      at emitNone (events.js:91:20)
